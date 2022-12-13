@@ -16,3 +16,41 @@ I'm a hard-working, honest individual. I'm always willing to learn new skills. I
 - HTML
 - CSS
 - Git
+
+## Code example
+
+```
+public class SumRecursion {
+
+    public static int sum(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        else {
+            return n + sum(n - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        int N = Integer.parseInt(args[0]);
+        if (N < 0) {
+            System.out.println("Illegal Input");
+        }
+        else {
+            sum(N);
+        }
+    }
+}
+```
+
+## Experience
+
+## Education
+
+- Karaganda Technical University
+-  Course:
+    - [nFactorial School](https://www.nfactorial.school/start)
+    
+## English 
+
+__A2 (Pre-Intermediate)__
